@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Application Packages</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+            position: relative;
+            min-height: 100vh;
+        }
+
+        body::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: url('xx.webp') no-repeat center center fixed;
+            background-size: cover;
+            opacity: 0.2;
+            z-index: -1;
+        }
+
+        header {
+            background-color: #ffffff;
+            color: #6a0dad;
+            padding: 20px 0;
+            text-align: center;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        nav {
+            display: inline-flex;
+            justify-content: center;
+            background-color: #6a0dad;
+            padding: 10px 0;
+        }
+
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-align: center;
+            transition: background-color 0.3s;
+        }
+
+        nav a:hover {
+            background-color: #ddd;
+            color: #6a0dad;
+        }
+
+        section {
+            padding: 20px;
+            margin: 20px;
+            background-color: rgba(255, 255, 255, 0.8);
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            color: #6a0dad;
+            border-bottom: 2px solid #6a0dad;
+            padding-bottom: 10px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #6a0dad;
+            color: white;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+
+        .image-container {
+            width: 100%;
+            text-align: center;
+            margin-top: 40px;
+        }
+
+        .image-container img {
+            width: 50%;
+            max-width: 600px;
+            height: auto;
+            border-radius: 8px;
+        }
+
+        /* Media Queries */
+        @media (max-width: 768px) {
+            nav {
+                flex-direction: column;
+            }
+
+            nav a {
+                padding: 10px;
+                width: 100%;
+                text-align: left;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Application Packages</h1>
+</header>
+
+<nav>
+    <a href="index.html">Back to Home</a>
+</nav>
+
+<section>
+    <h2>What is an Application Package?</h2>
+    <p>An application package refers to a collection of software programs or tools bundled together to perform a variety of related tasks. These packages include utilities, libraries, and support files that allow users to perform specific functions. For example, Microsoft Office is a widely used application package that includes tools like Word, Excel, PowerPoint, and Outlook, all designed to work together to help users create documents, presentations, spreadsheets, and manage emails. Application packages are often designed to meet specific needs, such as accounting, video editing, or graphic design.</p>
+
+    <h3>Types of Application Packages</h3>
+    <ul>
+        <li><strong>Productivity Suites:</strong> These packages offer a set of tools for creating documents, spreadsheets, and presentations. Examples include Microsoft Office, Google Workspace, and LibreOffice.</li>
+        <li><strong>Multimedia Software:</strong> Packages that help users create, edit, and manage multimedia content like videos, images, and audio. Examples include Adobe Creative Suite, Final Cut Pro, and Audacity.</li>
+        <li><strong>Development Tools:</strong> These packages provide developers with tools to create, test, and debug software applications. Examples include Visual Studio, Eclipse, and Android Studio.</li>
+        <li><strong>Enterprise Solutions:</strong> Packages designed for business and organizational management. These include CRM systems (Customer Relationship Management), ERP (Enterprise Resource Planning) systems, and project management software. Examples include Salesforce and SAP.</li>
+    </ul>
+
+    <h3>Advantages of Application Packages</h3>
+    <ul>
+        <li><strong>Integration:</strong> Different software programs within an application package are often designed to work seamlessly together, allowing for better workflow and efficiency.</li>
+        <li><strong>Cost-Effective:</strong> Instead of purchasing individual software, users can often save money by purchasing a package that includes all necessary tools.</li>
+        <li><strong>Ease of Use:</strong> Application packages typically come with user-friendly interfaces, documentation, and support, making it easier for users to adopt them quickly.</li>
+    </ul>
+</section>
+
+<footer>
+    <p>&copy; 2023 Computer Science Curriculum. All rights reserved.</p>
+</footer>
+
+</body>
+</html>

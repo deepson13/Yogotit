@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questions & Answers - Computer Science Topics</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+            position: relative;
+            min-height: 100vh;
+        }
+
+        body::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: url('xx.webp') no-repeat center center fixed;
+            background-size: cover;
+            opacity: 0.2;
+            z-index: -1;
+        }
+
+        header {
+            background-color: #ffffff;
+            color: #6a0dad;
+            padding: 20px 0;
+            text-align: center;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        nav {
+            display: inline-flex;
+            justify-content: center;
+            background-color: #6a0dad;
+            padding: 10px 0;
+        }
+
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-align: center;
+            transition: background-color 0.3s;
+        }
+
+        nav a:hover {
+            background-color: #ddd;
+            color: #6a0dad;
+        }
+
+        section {
+            padding: 20px;
+            margin: 20px;
+            background-color: rgba(255, 255, 255, 0.8);
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            color: #6a0dad;
+            border-bottom: 2px solid #6a0dad;
+            padding-bottom: 10px;
+        }
+
+        .qa {
+            margin-bottom: 30px;
+        }
+
+        .question {
+            font-weight: bold;
+            color: #444;
+            font-size: 1.2em;
+            margin-bottom: 10px;
+        }
+
+        .answer {
+            margin-left: 20px;
+            color: #555;
+            font-size: 1em;
+            margin-bottom: 20px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #6a0dad;
+            color: white;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+
+        /* Media Queries */
+        @media (max-width: 768px) {
+            nav {
+                flex-direction: column;
+            }
+
+            nav a {
+                padding: 10px;
+                width: 100%;
+                text-align: left;
+            }
+
+            section {
+                margin: 10px;
+                padding: 15px;
+            }
+
+            .qa {
+                margin-bottom: 20px;
+            }
+
+            .question {
+                font-size: 1.1em;
+            }
+
+            .answer {
+                font-size: 0.95em;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Computer Science - Questions & Answers</h1>
+</header>
+
+<nav>
+    <a href="index.html">Back to Home</a>
+</nav>
+
+<section>
+    <div class="qa">
+        <h2>1. What is a Computer System?</h2>
+        <p class="question">Q: What are the components of a computer system?</p>
+        <p class="answer">A: A computer system consists of hardware and software components. Hardware includes the central processing unit (CPU), memory (RAM), storage devices, input devices (keyboard, mouse), and output devices (monitor, printer). Software includes the operating system (OS) and application software.</p>
+        
+        <p class="question">Q: How do software and hardware interact in a computer system?</p>
+        <p class="answer">A: Software and hardware interact through the operating system, which manages hardware resources and allows software applications to perform tasks using those resources. The CPU processes instructions provided by the software, and memory stores data temporarily for quick access.</p>
+    </div>
+
+    <div class="qa">
+        <h2>2. What is the Number System & Boolean Logic?</h2>
+        <p class="question">Q: Why is the binary number system important in computers?</p>
+        <p class="answer">A: The binary number system is essential in computers because digital circuits use two states, typically represented as 0 and 1. This makes binary the most efficient way to represent data and perform calculations in a computer.</p>
+
+        <p class="question">Q: How does Boolean logic work?</p>
+        <p class="answer">A: Boolean logic uses operators such as AND, OR, and NOT to evaluate logical expressions that result in either a true (1) or false (0) value. It is fundamental in creating decision-making structures in programming and in digital circuit design.</p>
+    </div>
+
+    <div class="qa">
+        <h2>3. What is Software & Operating Systems?</h2>
+        <p class="question">Q: What is the role of an operating system?</p>
+        <p class="answer">A: An operating system (OS) is responsible for managing hardware resources, providing a user interface, and running applications. It manages memory, processes, files, and device input/output, ensuring that everything runs smoothly on the computer.</p>
+
+        <p class="question">Q: Can you explain the difference between system software and application software?</p>
+        <p class="answer">A: System software includes the operating system and utilities that manage the computer’s hardware and software resources, while application software includes programs designed to perform specific tasks for the user, such as word processing or web browsing.</p>
+    </div>
+
+    <div class="qa">
+        <h2>4. What are Application Packages?</h2>
+        <p class="question">Q: What are the advantages of using an application package?</p>
+        <p class="answer">A: Application packages offer an integrated solution by combining multiple tools within a single package, which can improve productivity. They reduce the need to install and configure separate applications, ensuring compatibility and providing users with a streamlined experience.</p>
+
+        <p class="question">Q: Can you provide an example of a popular application package?</p>
+        <p class="answer">A: Microsoft Office is a common application package, including tools such as Word, Excel, and PowerPoint, all of which are designed to help users perform various productivity tasks in one unified environment.</p>
+    </div>
+
+    <div class="qa">
+        <h2>5. What are Programming Concepts?</h2>
+        <p class="question">Q: How do control structures like loops and conditionals help in programming?</p>
+        <p class="answer">A: Control structures such as loops and conditionals allow a programmer to control the flow of a program. Loops are used to repeat a set of instructions multiple times, and conditionals like if-else allow a program to make decisions based on certain conditions.</p>
+
+        <p class="question">Q: What are functions in programming?</p>
+        <p class="answer">A: Functions are blocks of code designed to perform a specific task. They can be called multiple times with different inputs, making code reusable and modular. Functions help reduce redundancy and organize code more efficiently.</p>
+    </div>
+
+    <div class="qa">
+        <h2>6. What is Web Technology?</h2>
+        <p class="question">Q: What is the role of HTML in web development?</p>
+        <p class="answer">A: HTML (HyperText Markup Language) is used to structure the content of web pages. It defines elements such as headings, paragraphs, images, and links, forming the foundation for a webpage's layout and structure.</p>
+
+        <p class="question">Q: How do CSS and JavaScript work with HTML?</p>
+        <p class="answer">A: CSS (Cascading Style Sheets) is used to style the HTML elements, controlling things like layout, colors, and fonts. JavaScript adds interactivity to the webpage by allowing dynamic content, such as buttons that perform actions when clicked.</p>
+    </div>
+
+    <div class="qa">
+        <h2>7. What is Multimedia?</h2>
+        <p class="question">Q: How does multimedia enhance user experience?</p>
+        <p class="answer">A: Multimedia enhances user experience by incorporating multiple forms of media, such as text, images, audio, video, and animation, which appeal to different senses. This makes content more engaging, interactive, and memorable for users.</p>
+
+        <p class="question">Q: What are the different types of multimedia content?</p>
+        <p class="answer">A: The main types of multimedia content include text, images, audio, video, and animation. Each type serves a unique purpose, such as providing information, enhancing visuals, or delivering sound and motion for better communication and engagement.</p>
+    </div>
+
+    <div class="qa">
+        <h2>8. What is Data Management?</h2>
+        <p class="question">Q: What is the significance of data management?</p>
+        <p class="answer">A: Data management ensures that data is stored, organized, and maintained in a way that makes it easy to retrieve, secure, and analyze. Proper data management helps businesses make informed decisions, improve efficiency, and comply with regulations.</p>
+
+        <p class="question">Q: What are some best practices for data security?</p>
+        <p class="answer">A: Best practices for data security include using encryption, setting up firewalls, performing regular backups, and applying strong authentication methods. These measures help protect sensitive data from unauthorized access, corruption, or loss.</p>
+    </div>
+</section>
+
+<footer>
+    <p>&copy; 2023 Computer Science Curriculum. All rights reserved.</p>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Computer System</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+            position: relative;
+            min-height: 100vh;
+        }
+
+        body::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: url('xx.webp') no-repeat center center fixed;
+            background-size: cover;
+            opacity: 0.2;
+            z-index: -1;
+        }
+
+        header {
+            background-color: #ffffff;
+            color: #6a0dad; 
+            padding: 20px 0;
+            text-align: center;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        nav {
+            display: inline-flex;
+            justify-content: center;
+            background-color: #6a0dad; 
+            padding: 10px 0;
+        }
+
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-align: center;
+            transition: background-color 0.3s;
+        }
+
+        nav a:hover {
+            background-color: #ddd;
+            color: #6a0dad; 
+        }
+
+        section {
+            padding: 20px;
+            margin: 20px;
+            background-color: rgba(255, 255, 255, 0.8); 
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            color: #6a0dad; 
+            border-bottom: 2px solid #6a0dad;
+            padding-bottom: 10px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #6a0dad; 
+            color: white;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+
+        .image-container {
+            width: 100%;
+            text-align: center;
+            margin-top: 40px;
+        }
+
+        .image-container img {
+            width: 50%; 
+            max-width: 600px;
+            height: auto;
+            border-radius: 8px;
+        }
+
+        /* Media Queries */
+        @media (max-width: 768px) {
+            nav {
+                flex-direction: column;
+            }
+
+            nav a {
+                padding: 10px;
+                width: 100%;
+                text-align: left;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Computer System</h1>
+</header>
+
+<nav>
+    <a href="index.html">Back to Home</a>
+</nav>
+
+<section>
+    <h2>What is a Computer System?</h2>
+    <p>A computer system is an integrated combination of hardware and software components that work together to perform various tasks. The hardware is the physical aspect of the system, including devices like the central processing unit (CPU), which is responsible for executing instructions; the memory (RAM), which temporarily holds data and instructions for quick access; and storage devices, such as hard drives (HDD) and solid-state drives (SSD), which store data persistently even when the computer is turned off. The CPU is often considered the 'brain' of the computer because it processes instructions and coordinates the functions of other hardware components.</p>
+
+    <p>In addition to the hardware, a computer system includes the software, which enables the hardware to perform specific functions. There are two primary categories of software: system software and application software. The system software includes the operating system (OS), which is the most fundamental software in a computer. The OS manages the hardware resources and provides a platform for running application software. Common operating systems include Windows, macOS, and Linux. The OS handles tasks such as memory management, input/output (I/O) operations, security, and network connections, making it an essential component of any computer system.</p>
+
+    <p>Application software, on the other hand, refers to programs designed to perform specific tasks for the user. These can range from office productivity suites like Microsoft Office to more specialized software like video editing tools or web browsers. Together, hardware and software form a complete system capable of performing complex computations, storing data, and allowing users to interact with the system to accomplish specific tasks.</p>
+
+    <h3>Components of a Computer System</h3>
+    <ul>
+        <li><strong>Input Devices:</strong> These are devices used to enter data into the computer. Examples include keyboards, mice, scanners, and microphones. Input devices allow users to interact with the computer and provide it with the necessary data for processing.</li>
+        <li><strong>Output Devices:</strong> These devices display or produce the processed data. Common output devices include monitors, printers, and speakers. These devices allow the computer to communicate the results of its computations to the user.</li>
+        <li><strong>Storage Devices:</strong> Storage devices store data permanently. The hard drive (HDD) is a traditional storage device, while solid-state drives (SSDs) are becoming more popular for their faster read/write speeds. These devices hold everything from the operating system to user files and application data.</li>
+        <li><strong>CPU (Central Processing Unit):</strong> The CPU is the heart of the computer system. It executes instructions from programs, processes data, and manages communication between hardware components. The CPU's speed, measured in GHz (gigahertz), directly impacts the performance of the computer.</li>
+        <li><strong>RAM (Random Access Memory):</strong> RAM is temporary memory that stores data and instructions that the CPU needs to access quickly. The more RAM a system has, the more data it can handle at once, which leads to better performance in multitasking environments.</li>
+    </ul>
+</section>
+
+<footer>
+    <p>&copy; 2023 Computer Science Curriculum. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
